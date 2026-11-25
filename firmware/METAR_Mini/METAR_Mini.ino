@@ -64,7 +64,7 @@ const uint16_t BG = TFT_BLACK;  // Pure black for clearer MVFR banner contrast
 const uint16_t FG = TFT_WHITE;
 const uint16_t DIM = TFT_WHITE;  // White headings and secondary text for high contrast
 const uint16_t BEST_GREEN = TFT_GREEN;
-const uint16_t VFR_GREEN = ((0 >> 3) << 11) | ((143 >> 2) << 5) | (50 >> 3);
+const uint16_t VFR_GREEN = BEST_GREEN;
 
 TFT_eSPI tft = TFT_eSPI();
 
