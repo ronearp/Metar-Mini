@@ -1,0 +1,16 @@
+{
+  "name": "METAR Mini",
+  "version": "4.5",
+  "new_install_prompt_erase": true,
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        {
+          "path": "metar-mini-v4.5.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}
